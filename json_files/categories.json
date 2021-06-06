@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "5eae0460a0b6c82c10b7dbe9"
+  },
+  "name": "java"
+},{
+  "_id": {
+    "$oid": "60915c17d577f3328c0e22e1"
+  },
+  "created": {
+    "$date": "2021-05-04T14:37:11.147Z"
+  },
+  "name": "Microsoft .Net",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60925710b9ed9b3db0804816"
+  },
+  "created": {
+    "$date": "2021-05-05T08:28:00.842Z"
+  },
+  "name": "software engineering",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60925762b9ed9b3db0804817"
+  },
+  "created": {
+    "$date": "2021-05-05T08:29:22.756Z"
+  },
+  "name": "internet",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60925776b9ed9b3db0804818"
+  },
+  "created": {
+    "$date": "2021-05-05T08:29:42.899Z"
+  },
+  "name": "web development",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60925794b9ed9b3db0804819"
+  },
+  "created": {
+    "$date": "2021-05-05T08:30:12.348Z"
+  },
+  "name": "miscellaneous",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609257b0b9ed9b3db080481a"
+  },
+  "created": {
+    "$date": "2021-05-05T08:30:40.067Z"
+  },
+  "name": "microsoft",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609258aab9ed9b3db0804822"
+  },
+  "created": {
+    "$date": "2021-05-05T08:34:50.029Z"
+  },
+  "name": "python",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609258bcb9ed9b3db0804823"
+  },
+  "created": {
+    "$date": "2021-05-05T08:35:08.213Z"
+  },
+  "name": "programming",
+  "__v": 0
+}]

@@ -1,0 +1,101 @@
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+<section id="home">
+  <div
+    id="myCarousel"
+    class="carousel slide"
+    data-ride="carousel"
+    data-interval="1000"
+  >
+    <ngb-carousel>
+      <ng-template ngbSlide>
+        
+        <img src="assets/img/Books_2.jpeg" alt="first" class="item" >
+       
+      </ng-template>
+      
+      
+    </ngb-carousel>
+
+ 
+
+    <div style="margin-top:30px;" class="container">
+      
+        <h3> Search By Categories</h3>
+     
+      <div class="card-deck">
+
+     
+        <div style="background-color:  rgb(30, 87, 141);" class="card ">
+          <div class="card-body text-center">
+            <a href="http://localhost:4200/categories/5eae0460a0b6c82c10b7dbe9"> <img  class="icon" src="../../assets/img/java.png" >
+            <p class="card-text">JAVA</p></a>
+           
+          </div>
+        </div>
+
+        <div style="background-color:  rgb(30, 87, 141);" class="card ">
+          <div class="card-body text-center">
+            <a href="http://localhost:4200/categories/60925710b9ed9b3db0804816"><img  class="icon" src="../../assets/img/network.png" >
+            <p class="card-text">SOFTWARE</p></a>
+          </div>
+        </div>
+        <div style="background-color:  rgb(30, 87, 141);" class="card ">
+          <div class="card-body text-center">
+            <a href="http://localhost:4200/categories/60925762b9ed9b3db0804817">  <img  class="icon" src="../../assets/img/code.png" >
+            <p class="card-text">INTERNET</p></a>
+          </div>
+        </div>
+        <div style="background-color:  rgb(30, 87, 141);" class="card ">
+          <div class="card-body text-center">
+            <a href="http://localhost:4200/categories/609258bcb9ed9b3db0804823"><img  class="icon" src="../../assets/img/code.png" >
+            <p class="card-text">PROGRAMMING</p></a>
+          </div>
+        </div>  
+      </div>
+    </div>
+  
+
+
+
+  <div class="container p-5">
+    <app-message></app-message>
+    <h3 style="margin-left:-30px"> Best Sellers for you</h3>
+    <div class="row">
+      <div *ngIf="!products" class="m-auto">
+        <h1 class="text-center display-3 mt-5">
+          <i class="fa fa-spinner fa-spin"></i>
+        </h1>
+      </div>
+      <div
+        *ngFor="
+          let product of products | slice: (page - 1) * 4 :(page - 1) * 8 + 8
+        "
+        class="col-md-3 mb-5"
+      >
+      
+          <div class="card" style="background-color: white;">
+            
+            <img src="{{ product.thumbnailUrl }}" alt="product" class="card-img-top" />
+            <div class="card-body">
+             
+              <h5 class="card-title"><a routerLink="/product/{{ product._id }}">{{ product.title }}</a></h5>
+              <h6 class="card-title"><span style="color:grey">{{ product.authors }}</span></h6>
+             <del> <h6 class="card-title"><span style="color:red">Actual Price : {{ product.price }} $ </span></h6></del> 
+              <h6 class="card-title" ><span style="color:green">{{ product.discount }}% off </span></h6> 
+              <p class="card-text"><b>You pay :{{ product.price*(1-product.discount/100) }} $</b></p>
+            </div>
+            <a routerLink="/product/{{ product._id }}"><button  class="btn btn-warning btn-block" >Click to view</button></a>
+          </div>
+         
+        
+      </div>
+    </div>
+  <!--  <ngb-pagination
+      [collectionSize]="lengthProducts"
+      [pageSize]="6"
+      [(page)]="page"
+    ></ngb-pagination>-->
+  </div>
+
+

@@ -1,0 +1,149 @@
+[{
+  "_id": {
+    "$oid": "608e9b0b12128ed04c898142"
+  },
+  "isSeller": true,
+  "created": {
+    "$date": "2021-05-02T12:28:59.799Z"
+  },
+  "name": "Niket",
+  "email": "chandilniket123@gmail.com",
+  "password": "$2a$10$ThZaAnQXuLIAp9qdAbKIQe/kLAgCgJzaKUolkjiocEKDydunqunK.",
+  "picture": "https://gravatar.com/avatar/923cce17ff59097e3485cf16e6c964e9?s200&d=retro",
+  "__v": 0,
+  "address": {
+    "addr1": "white house",
+    "addr2": "cyber city",
+    "city": "mumbai",
+    "country": "india",
+    "postalCode": "410210",
+    "state": "maharastra"
+  }
+},{
+  "_id": {
+    "$oid": "6090ef9dab49479ea87dd707"
+  },
+  "isSeller": false,
+  "created": {
+    "$date": "2021-05-04T06:54:21.773Z"
+  },
+  "name": "naveen",
+  "email": "naveen@gmail.com",
+  "password": "$2a$10$fuSYtZfT2jEmgwqz1Rd1uup33JdvHXqtcMZ4xGNZ5vDGtLx2MXG5W",
+  "picture": "https://gravatar.com/avatar/27d816a4e1136858d6a18f7a51601b3f?s200&d=retro",
+  "__v": 0,
+  "address": {
+    "addr1": "abc building",
+    "city": "mumbai",
+    "country": "india",
+    "postalCode": "410210",
+    "state": "maharstra"
+  }
+},{
+  "_id": {
+    "$oid": "60912a5fd624c63e5ccf4bb8"
+  },
+  "isSeller": true,
+  "created": {
+    "$date": "2021-05-04T11:05:03.659Z"
+  },
+  "name": "Harini",
+  "email": "example1@gmail.com",
+  "password": "$2a$10$TB/ayPE3yAKDxXdmYYlNH.yCHueHHM/xaxe1/K8ToxqtGhshowAc6",
+  "picture": "https://gravatar.com/avatar/f3e820cc128ffde207328176830dff87?s200&d=retro",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60915bc0d577f3328c0e22e0"
+  },
+  "isSeller": true,
+  "created": {
+    "$date": "2021-05-04T14:35:44.533Z"
+  },
+  "name": "Kaushik",
+  "email": "kaushik@gmail.com",
+  "password": "$2a$10$PQRJFTr02kijR6AAuA4mzOA9lc/uOwdRd2gb81ITZJ7gOUIBT.N9i",
+  "picture": "https://gravatar.com/avatar/76d7d9f2b6f32e0c39ae298175ea23cd?s200&d=retro",
+  "__v": 0,
+  "address": {
+    "addr1": "Cognizant office",
+    "city": "cheenai",
+    "country": "India",
+    "postalCode": "8445621",
+    "state": "tamil nadu"
+  }
+},{
+  "_id": {
+    "$oid": "609238d6df58c53a586f714a"
+  },
+  "isSeller": true,
+  "created": {
+    "$date": "2021-05-05T06:19:02.500Z"
+  },
+  "name": "Bookworm",
+  "email": "bookworm@gmail.com",
+  "password": "$2a$10$V1oNynvErNQtuxbIPdKX9uoW9YaRNCH9Xvzxh2VH9lwf9PaAzGzhi",
+  "picture": "https://gravatar.com/avatar/c563ebf320009bb37319ea203e5be362?s200&d=retro",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "609242d5df58c53a586f714b"
+  },
+  "isSeller": false,
+  "created": {
+    "$date": "2021-05-05T07:01:41.684Z"
+  },
+  "name": "abc",
+  "email": "abc123@gmail.com",
+  "password": "$2a$10$2gi1dlAA.1IWjszEfRIUdu8WzIom0gv7JtJ2EG.xS2nwWij73JvN2",
+  "picture": "https://gravatar.com/avatar/a751156c43e6349d8eae1f392950df34?s200&d=retro",
+  "__v": 0,
+  "address": {
+    "addr1": "Plot no 236",
+    "city": "Colombo",
+    "country": "Sri lanka",
+    "postalCode": "845669",
+    "state": "bali"
+  }
+},{
+  "_id": {
+    "$oid": "6092ccbf3bed0d26bc3ac9bd"
+  },
+  "isSeller": false,
+  "created": {
+    "$date": "2021-05-05T16:50:07.429Z"
+  },
+  "name": "Mrinalini",
+  "email": "mrinalini@gmail.com",
+  "password": "$2a$10$wGN0xqKjNkRyAR4b/povSeOI3ox3dJwRN0/AMpjY5neCyPiJP82ie",
+  "picture": "https://gravatar.com/avatar/dd337af769ba47d928d7a74a3a651d88?s200&d=retro",
+  "__v": 0,
+  "address": {
+    "addr1": "korea nagar",
+    "addr2": "ho-chi-minh",
+    "city": "seoul",
+    "country": "south Korea",
+    "postalCode": "546987",
+    "state": "korea"
+  }
+},{
+  "_id": {
+    "$oid": "6092cd2e3bed0d26bc3ac9be"
+  },
+  "isSeller": false,
+  "created": {
+    "$date": "2021-05-05T16:51:58.326Z"
+  },
+  "name": "Anil kumar chandil",
+  "email": "anil123@gmail.com",
+  "password": "$2a$10$eudlb8kQJRnd3VPctMCRPufzrIafX7qiZN3YbnY1DYxFN82SGeJAC",
+  "picture": "https://gravatar.com/avatar/828fd70b2509a0b3a1ee58870f2c7c9c?s200&d=retro",
+  "__v": 0,
+  "address": {
+    "addr1": "302",
+    "city": "mumbai",
+    "country": "india",
+    "postalCode": "410210",
+    "state": "mh"
+  }
+}]

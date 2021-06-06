@@ -1,0 +1,61 @@
+<section id="profile">
+  <div class="container p-5">
+    <h4 class="display-4"><b>My Profile</b></h4>
+    <hr />
+    <div *ngIf="!data.user" class="m-auto">
+      <h1 class="text-center display-3 mt-5">
+        <i class="fa fa-spinner fa-spin"></i>
+      </h1>
+    </div>
+    <div *ngIf="data.user" class="row mt-5">
+      <div class="col-md-3">
+        <img
+          [src]="data.user.picture"
+          alt="userimage"
+          class="rounded-circle image"
+        />
+      </div>
+
+      
+
+      
+      <div class="col-md-8 ml-3">
+        <h4 id="name">Welcome {{ data.user.name }} !</h4>
+        <a routerLink="/profile/orders" class="btn" style="background-color:  rgb(30, 87, 141);color:white">My Orders</a>
+        <br />
+        <br />
+        <a routerLink="/profile/settings" class="btn "style="background-color:  rgb(30, 87, 141);color:white"
+          >Change Account Settings</a
+        >
+        <br />
+        <br />
+        <a routerLink="/profile/address" class="btn" style="background-color:  rgb(30, 87, 141);color:white"
+          >Change Shipping Address</a
+        >
+        <br />
+        <br />
+        <div *ngIf="data.user.isSeller">
+          <h4>Seller Actions</h4>
+          <hr />
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <a
+                routerLink="/profile/postproduct"
+                class="btn btn-block" style="background-color:rgb(12, 158, 12);"
+                >Post Book for Sale</a
+              >
+            </div>
+            <div class="col-md-6">
+              <a
+                routerLink="/profile/admin"
+                class="btn  btn-block" style="background-color:rgb(18, 221, 236)"
+                >Seller Dashboard</a
+              >
+      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
